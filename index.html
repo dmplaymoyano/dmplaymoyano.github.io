@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Diego</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>DIEGO MOYANO</h1>
+            <h2>Programador Front End</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/disegod10/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100084694885821"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/diego-moyano-77a6211b2"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Moyano Diego.</span> Soy estudiante en la carrera de Sistemas y futuro Desarrollador Full
+                Stack . Cuento con gran motivación para avanzar en mi carrera profesional, me destaco por mi compromiso
+                y responsabilidad. actualmente trabajo como tecnico para una importante empresa.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            14-06-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            11-53491919
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            diegomoyanollc@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://dmplaymoyano.github.io/
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Guernica, Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Programador Front End</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-laptop-code"></i>
+                            <span>PROGRAMACION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        <div>
+                            <button>
+                                Descargar CV <i class="fa-solid fa-download"></i>
+                                <a
+                                    href="https://drive.google.com/file/d/1h-70MzKm5a0FYnuPZ7LDGYiVQs215nFA/view?usp=share_link">
+                                    <span class="overlay"></span>
+                                </a>
+                            </button>
+                        </div>
+                        </head>
+    </section>
+
+    <!-- SECCION SKILLS -->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <!-- Technical Skill -->
+
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML y Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Desarrollador Web</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño Grafico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnico Agropecuario</h4>
+                        <span class="casa">Secundaria Agrotecnica</span>
+                        <span class="fecha">2007 - 2014</span>
+                        <p>Tecnico en produccion agropecuaria</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Computacion Pccom_(Tucuman)</h4>
+                        <span class="casa">Operador de pc</span>
+                        <span class="fecha">2008 - 2010</span>
+                        <p>Escribir todo tipo de documentos profesionales con Microsoft WORD. Realizar presentaciones
+                            combinadas con POWERPOINT, generar y manejar una base de datos con ACCESS y llevar la
+                            administración de un negocio en una planilla EXCEL.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programador Full Stack</h4>
+                        <span class="casa">Online-Platzi</span>
+                        <span class="fecha">2023 - Actualmente</span>
+                        <p>Dominacion de Javascript, entendimiento de HTML y aprendizaje de algoritmos, lógica del
+                            código, cómo programar un videojuego web de principio a fin.
+                            Escribe código fluido con HTML, CSS y JavaScript
+                            Diseña algoritmos
+                            Desarrolla software con funciones, objetos y eventos
+                            Programa un videojuego para la web</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Online-AcademiaBA</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <h4>Programacion en JavaScript</h4>
+                        <p>Adquirí nociones básicas e introductorias al lenguaje de programación JavaScript. Conocé como
+                            a añadir características interactivas a tu sitio web, por ejemplo, juegos, botones,
+                            formularios, efectos de estilo dinámicos, animación, entre otros.
+                            <li>Introducción al JavaScript.</li>
+                            <li>Variables y tipos de datos.</li>
+                            <li>Operadores.</li>
+                            <li>Condiciones, Arrays y bucles.</li>
+                        </p>
+
+                        <br>
+                        <h4>Programacion en PHP</h4>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Adquirí nociones básicas e introductorias al código PHP, lenguaje de programación que hace
+                            referencia al desarrollo web. Aprendé a usarlo en formularios, acceso a bases de datos MySQL
+                            y frameworks.
+                            <li>Introducción al código PHP.</li>
+                            <li>Lenguaje PHP básico.</li>
+                            <li>Formularios.</li>
+                            <li>Acceso a bases de datos MySQL en PHP y Frameworks.</li>
+                        </p>
+
+                        <br>
+                        <h4>Diseño UX: Experiencia de usuario</h4>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>El diseño UX es una herramienta que se centra en la experiencia general del usuario final, Te
+                            permite conocer la experiencia que tiene cada uno desde el minuto cero (momento que se
+                            en contacto con tu emprendimiento) hasta la etapa post venta, para que puedas
+                            aprovechar al máximo la interacción y aumentar tus ventas
+                            <li>Experiencia y necesidad del Usuario.</li>
+                            <li>UX Needfinding.</li>
+                            <li>Modelo de doble diamante.</li>
+                            <li>Relevamiento de datos.</li>
+                            <li>Mapa de viaje de usuario.</li>
+                        </p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Todo-Code</span>
+                        <h4>Programacion HTML y CSS Desde 0</h4>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Los temas están enfocados en conceptos específicos pero aquí los he dividido en categorías
+                            principales para darte una idea general del contenido.
+                            HTML
+                            <li>Introducción a HTML y CSS.</li>
+                            <li>Herramientas de Desarrollo de Google Chrome.</li>
+                            <li>Editores de Código.</li>
+                            <li>Crear archivo HTML y declarar DOCTYPE.</li>
+                            <li>Elementos y etiquetas en HTML.</li>
+                            <li>Encabezados y Párrafos.</li>
+                            <li>Documentación Web.</li>
+                            <li>Indentación.</li>
+                            <li>Imágenes.</li>
+                            <li>Enlaces.</li>
+                            <li>Listas ordenadas y no ordenadas.</li>
+                            <li>Formato de texto.</li>
+                            <li>Formularios.</li>
+                            <li>Botones de Radio y casillas de verificación.</li>
+                            <li>Elementos div</li>
+                            <li>Pie de página.</li>
+                            <li>Elemento head.</li>
+                            <br>
+                            CSS
+                            <li>Introducción a CSS.</li>
+                            <li>Estilos en línea, el bloque style y archivos CSS.</li>
+                            <li>Clases y ids.</li>
+                            <li>Formato de texto(tamaño,tipo de letra,respaldos).</li>
+                            <li>Google Fonts.</li>
+                            <li>Imágenes.</li>
+                            <li>Padding y Margin.</li>
+                            <li>Selectores de atributo.</li>
+                            <li>Unidades absolutas y relativas.</li>
+                            <li>Prioridad de estilos.</li>
+                            <li>Colores HEX y RGB en CSS.</li>
+                            <li>Variables CSS.</li>
+                        </p>
+                        <br>
+                        <br>
+                        <h4>Bases de Datos Relacionales en (MySQL)</h4>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>En este curso aprenderás MySQL de una forma sencilla, viendo conceptos teóricos y
+                            demostraciones prácticas que te llevaran paso a paso de una manera simple para que puedas ir
+                            aprendiendo y asimilando el conocimiento, siempre de la mano de tu instructor, la idea es
+                            que vayas realizando de tu lado las mismas demostraciones que ves en el curso, y si tienes
+                            alguna pregunta o curiosidad pues te apoyemos para superarla.
+                            Entre los temas que veremos en el curso están los siguientes:
+                            <li>Instalación de Mysql y Workbench.</li>
+                            <li>Creación de base de datos y tablas.</li>
+                            <li>Sentencias SQL (select, insert, update, delete,etc).</li>
+                            <li>Tipo de datos.</li>
+                            <li>creación de índices, claves primarias, etc.</li>
+                            <li>Desarrollo de vistas, store procedure y funciones.</li>
+                            <li>Realización de copias de seguridad y recuperación.</li>
+                            <li>Reparación y optimización de base de datos.</li></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Tecnico Redes</h4>
+                        <span class="casa">Claro</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Instalacion de internet fibra optica y tv, realizar service de mantenimiento de lineas,
+                            trabajo en altura y manejo de fibra optica.instalacion de internet fibra optica y tv,
+                            realizar service de mantenimiento de lineas, trabajo en altura y manejo de fibra optica.
+                            Aptitudes: Interconexión de redes IP · Servicios técnicos · Mantenimiento preventivo ·
+                            Instalación de hardware · Televisión por cable · Atención al cliente · Adaptación ·
+                            Mantenimiento y reparaciones · IPTV · Redes inalámbricas · Cableado · Redes de fibra
+                            óptica
+                            · Inglés · Servicios web · Fibra óptica · Telecomunicaciones · Servicio de atención al
+                            cliente</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tecnico Instalador</h4>
+                        <span class="casa">Movistar</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Instalacion de internet fibra optica y tv, realizar service de mantenimiento de lineas,
+                            trabajo en altura y manejo de fibra optica.
+                            MANEJO DE APLICACIONES
+                            1 MOBBI
+                            2 PDR(portal de relacion de movistar)
+                            3 ORACLE</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Service Tecnico</h4>
+                        <span class="casa">Telecentro</span>
+                        <span class="fecha">2022 - Actualmente</span>
+                        <p>Instalación y reparación en red de acceso HFC y FTTH
+                            Análisis, detección y resolución de fallas.
+                            Mantenimiento preventivo y correctivo.
+                            Instalación y configuración de Cable Modems, Set Top Box, routers, etc.
+                            Generación de Tickets.
+                            Trato directo con clientes.
+                            Uso de instrumental HFC: Viavi ONX-220Instalación y reparación en red de acceso HFC y
+                            FTTH
+                            Análisis, detección y resolución de fallas. Mantenimiento preventivo y correctivo.
+                            Instalación y configuración de Cable Modems, Set Top Box, routers, etc. Generación de
+                            Tickets. Trato directo con clientes. Uso de instrumental HFC: Viavi ONX-220
+                            Aptitudes: Interconexión de redes IP · Servicios técnicos · Mantenimiento preventivo ·
+                            Instalación de hardware · Televisión por cable · Atención al cliente · Adaptación ·
+                            Mantenimiento y reparaciones · IPTV · Redes inalámbricas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="http://www.dmplaymovies.eshost.com.ar/">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Dmplay!</h3>
+                            <p>Pagina Web De Peliculas</p>
+                    </a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/p2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Calculadora</h3>
+                    <p>proyecto calculadora</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <a href="https://www.instagram.com/disegod10/">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseñador Grafico</h3>
+                        <p>Trabajos</p>
+                </a>
+            </div>
+        </div>
+        <div class="proyecto">
+            <a href="https://elated-sky-6805.glideapp.io/">
+                <img src="img/p4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Dmplay app</h3>
+                    <p>Aplicacion</p>
+            </a>
+        </div>
+        </div>
+        <div class="proyecto">
+            <a href="https://kinesiomari.github.io/">
+                <img src="img/p5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Kinesio Mari</h3>
+                    <p>pagina web de kinesiologia</p>
+            </a>
+        </div>
+        </div>
+        <div class="proyecto">
+            <a href="https://webtucu.github.io/">
+                <img src="img/p6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Comida Rapida</h3>
+                    <p>web comida rapida</p>
+            </a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Guernica, Buenos Aires, AR
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                telf: 11- 53491919
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: diegomoyanollc@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form action="Mensaje()">
+
+        <input type="submit">
+
+    </form>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/disegod10/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100084694885821"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/diego-moyano-77a6211b2"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
